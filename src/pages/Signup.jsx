@@ -19,6 +19,7 @@ function Signup() {
 
 
 <Outlet />
+
     </div>
   )
 }

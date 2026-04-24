@@ -21,20 +21,12 @@ function Routing() {
                 <Route path="/products/:title" element={<ProductDetail />} />
                 <Route path="/about" element={<About />} />
                 <Route path="/signup" element={<Signup />} >
-                    <Route path="/chackout" element={<Chackout />} />
-                    <Route path="/card" element={<Card />} />
+                    <Route path="chackout" element={<Chackout />} />
+                    <Route path="card" element={<Card />} />
                 </Route>
-
-
             </Routes>
         </BrowserRouter>
     )
 }
 
 export default Routing
-
-
-// <Route path="/signup" element={<Signup />}>
-//   <Route index element={<Checkout />} />
-//   <Route path="cart" element={<Cart />} />
-// </Route>
