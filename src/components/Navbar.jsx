@@ -34,7 +34,7 @@ const navstyle = ({ isActive }) => {
                     Signup
                 </NavLink>
 
-            </nav>
+            </  nav>
         </div>
     )
 }
