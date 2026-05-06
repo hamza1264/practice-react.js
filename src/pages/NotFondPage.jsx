@@ -10,10 +10,8 @@ function NotFondPage() {
                 <p className="text-2xl md:text-3xl font-bold text-gray-800">Page Not Found</p>
                 <p className="text-sm md:text-base mt-4 text-gray-500 max-w-md text-center">The page you are looking for might have been removed, had its name changed, or is temporarily unavailable.</p>
                 <div className="flex items-center gap-4 mt-6">
-                    <Link to={"/"}>
-                        <a href="#" className="bg-gray-800 hover:bg-black px-7 py-2.5 text-white rounded-md active:scale-95 transition-all">
-                            Return Home ⇛
-                        </a>
+                    <Link to={"/"} className="bg-gray-800 hover:bg-black px-7 py-2.5 text-white rounded-md active:scale-95 transition-all">
+                        Return Home ⇛
                     </Link>
                 </div>
             </div>
