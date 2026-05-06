@@ -24,7 +24,7 @@ function ProductDetail() {
         <div style={styles.container}>
 
             <div style={styles.left}>
-                <img src={product.img} style={styles.image} />
+                <img src={product.img} alt={product.name} style={styles.image} />
             </div>
 
             <div style={styles.right}>
